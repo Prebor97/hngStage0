@@ -3,13 +3,13 @@ package com.example.hngStage0;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 @Component
 public class DateUtil {
-    String formatUsingDateTimeFormatter(LocalDate localDate) {
+    public static String formatUsingDateTimeFormatter(LocalDateTime localDateTime) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss.SSSX");
-        String formattedDate = localDate.atStartOfDay().atOffset(ZoneOffset.UTC).format(formatter);
-        return formattedDate;
+        return localDateTime.atOffset(ZoneOffset.UTC).format(formatter);
     }
 }
