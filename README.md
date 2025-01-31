@@ -11,7 +11,7 @@
 - **Clone this repository to your local machine to any directory of your choice.**
 
 
-- **Run "mvn clean install" on your terminal in the directory where you cloned the project to in order to download all the project's dependencies.**
+- **Run "mvn clean install" on your terminal in the directory  where the "pom.xml" file is("hngStage0" directory) in order to download all the project's dependencies.**
 
 
 - **Make sure you are in the directory where the "pom.xml" file is("hngStage0" directory). Run "mvn compile" to compile the codes. After compilation run "mvn springboot". This should start the application and you can proceed to test endpoint on postman**
