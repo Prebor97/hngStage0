@@ -5,7 +5,7 @@
 
 
 ### **Local Machine(Laptop)**
-- **Ensure the latest version of maven and java 23 is installed on your device. Ensure you set the environmental variables are set too.**
+- **Ensure the latest version of maven and java 23 is installed on your device. Ensure you set the paths too.**
 
 
 - **Clone this repository to your local machine to any directory of your choice.**
