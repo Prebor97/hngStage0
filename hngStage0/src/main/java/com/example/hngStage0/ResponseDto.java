@@ -5,8 +5,8 @@ import lombok.Data;
 
 public class ResponseDto {
     private String email;
-    private String date;
-    private String gitHubUrl;
+    private String current_datetime;
+    private String github_url;
 
     public ResponseDto() {
     }
@@ -19,19 +19,19 @@ public class ResponseDto {
         this.email = email;
     }
 
-    public String getDate() {
-        return date;
+    public String getCurrent_datetime() {
+        return current_datetime;
     }
 
-    public void setDate(String date) {
-        this.date = date;
+    public void setCurrent_datetime(String current_datetime) {
+        this.current_datetime = current_datetime;
     }
 
-    public String getGitHubUrl() {
-        return gitHubUrl;
+    public String getGithub_url() {
+        return github_url;
     }
 
-    public void setGitHubUrl(String gitHubUrl) {
-        this.gitHubUrl = gitHubUrl;
+    public void setGithub_url(String github_url) {
+        this.github_url = github_url;
     }
 }
