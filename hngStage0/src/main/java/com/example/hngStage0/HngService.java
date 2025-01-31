@@ -14,13 +14,11 @@ public class HngService {
 
     public ResponseDto getInfo(){
         ResponseDto responseDto = new ResponseDto();
-        String email = "prebstamar@gmail.com";
-        String gitHubUrl = "https://github.com/Prebor97/hngStage0";
         LocalDateTime date = LocalDateTime.now();
         String presentDate = dateUtil.formatUsingDateTimeFormatter(date);
-        responseDto.setEmail(email);
+        responseDto.setEmail("prebstamar@gmail.com");
         responseDto.setCurrent_datetime(presentDate);
-        responseDto.getGithub_url();
+        responseDto.setGithub_url("https://github.com/Prebor97/hngStage0");
         return responseDto;
     }
 
