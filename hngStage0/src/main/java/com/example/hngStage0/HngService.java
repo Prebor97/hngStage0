@@ -15,7 +15,7 @@ public class HngService {
     public ResponseDto getInfo(){
         ResponseDto responseDto = new ResponseDto();
         String email = "prebstamar@gmail.com";
-        String gitHubUrl = "Git url";
+        String gitHubUrl = "https://github.com/Prebor97/hngStage0";
         LocalDateTime date = LocalDateTime.now();
         String presentDate = dateUtil.formatUsingDateTimeFormatter(date);
         responseDto.setEmail(email);
