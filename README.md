@@ -21,7 +21,7 @@
 - **Clone this repository to your local machine to any directory of your choice.**
 
 
-- **Make sure docker is started on your system. Create a docker image by running this command - "docker build -t your-image-name .". Please include the full stop(.) at the end.**
+- **Make sure docker is started on your system. Create a docker image by running this command - "docker build -t your-image-name ." in your project's directory(hngStage0). Please include the full stop(.) at the end.**
 
 
 - **Run the container by running this command - "docker run -d -p 8080:8080 your-image-name".**
