@@ -19,8 +19,8 @@ public class HngService {
         LocalDateTime date = LocalDateTime.now();
         String presentDate = dateUtil.formatUsingDateTimeFormatter(date);
         responseDto.setEmail(email);
-        responseDto.setDate(presentDate);
-        responseDto.setGitHubUrl(gitHubUrl);
+        responseDto.setCurrent_datetime(presentDate);
+        responseDto.getGithub_url();
         return responseDto;
     }
 
